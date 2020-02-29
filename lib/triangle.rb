@@ -13,7 +13,7 @@ end
 
   def kind
    #binding.pry
-   if equilateral? ||  isosceles? || scalene?
+   equilateral? ||  isosceles? || scalene?
 
   end
 
