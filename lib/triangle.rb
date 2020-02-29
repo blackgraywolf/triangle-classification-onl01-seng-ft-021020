@@ -19,7 +19,7 @@ class Triangle
   end
 
   def no_sides?
-     binding.pry
+    # binding.pry
     fail TriangleError, 'sides have no length' if @sides.size { |n| n = 0 }
   end
 
