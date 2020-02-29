@@ -50,6 +50,7 @@ end
   end
 
   def sides
-   
+    binding.pry
+   @sides.all? {|n| a == n }
   end
 end
