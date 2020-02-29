@@ -56,7 +56,7 @@ end
   def unique_sides
   
   num = 0
-  @sides = [2,3,3]
+  #@sides = [2,3,3]
    @sides.each {|n| if @sides[0] == n 
      num += 1
    end
