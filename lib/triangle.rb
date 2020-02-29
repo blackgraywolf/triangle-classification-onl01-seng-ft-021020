@@ -58,7 +58,7 @@ end
   result = 0
   #@sides = [2,3,3]
   
-   if @sides[0] == @sides[1] && 
+   if @sides[] == @sides[] && 
    
   #  binding.pry
   end
