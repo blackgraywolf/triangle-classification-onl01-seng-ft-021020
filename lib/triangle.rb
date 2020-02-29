@@ -4,7 +4,7 @@ require 'pry'
 # class to determine Triangle type
 class Triangle
   class TriangleError < StandardError
-  
+  #can add message here
 end
   def initialize(a, b, c)
     @sides = [a, b, c]
@@ -12,7 +12,14 @@ end
   end
 
   def kind
-    equilateral? || isosceles? || scalene?
+   # binding.pry
+   if equilateral? 
+     :equilateral
+     elsif  isosceles? 
+     :isosceles
+     elsif scalene?
+     :scalene
+   end
   end
 
   private
