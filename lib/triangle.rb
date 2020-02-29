@@ -19,7 +19,7 @@ class Triangle
   end
 
   def no_sides?
-    fail TriangleError, 'sides have no length' if @sides.find { |n| n = 0 
+    fail TriangleError, 'sides have no length' if @sides.find { |n| n = 0 }
   end
 
   def negative_sides?
