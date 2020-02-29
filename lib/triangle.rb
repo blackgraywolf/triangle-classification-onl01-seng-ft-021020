@@ -1,10 +1,11 @@
 require 'pry'
-class TriangleError < StandardError
-  
-end
+
 
 # class to determine Triangle type
 class Triangle
+  class TriangleError < StandardError
+  
+end
   def initialize(a, b, c)
     @sides = [a, b, c]
     validate
