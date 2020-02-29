@@ -58,7 +58,7 @@ end
   result = 0
   #@sides = [2,3,3]
   
-   if @sides[0] == @sides[1] && @sides[0] == @sides[2] && 
+   if @sides[0] == @sides[1] && @sides[0] == @sides[2] && @sides[1] == @sides[2]
      result = 3
    elsif @sides[0] == @sides[1]
    
