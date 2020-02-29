@@ -60,7 +60,7 @@ end
   
    if @sides[0] == @sides[1] && @sides[0] == @sides[2] && @sides[1] == @sides[2]
      result = 3
-   elsif @sides[0] == @sides[1] || @sides[0] == @sides[3] || @sides[1] == @sides[2] || @sides[2] == @sides[3]
+   elsif @sides[0] == @sides[1] || @sides[0] == @sides[2] || @sides[1] == @sides[2] 
    result = 2
  else
    result = 1
