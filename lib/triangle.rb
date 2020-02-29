@@ -12,7 +12,7 @@ end
   end
 
   def kind
-   # binding.pry
+   binding.pry
    if equilateral? 
      :equilateral
      elsif  isosceles? 
