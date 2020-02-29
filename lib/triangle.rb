@@ -19,11 +19,12 @@ class Triangle
   end
 
   def no_sides?
+     binding.pry
     fail TriangleError, 'sides have no length' if @sides.find { |n| n = 0 }
   end
 
   def negative_sides?
-    binding.pry
+   
     fail TriangleError, 'negative side(s)' if @sides.find { |n| n < 0 }
   end
 
