@@ -44,7 +44,7 @@ end
   end
 
   def isosceles?
-    
+     binding.pry
     :isosceles if unique_sides == 2
   end
 
