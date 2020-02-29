@@ -49,7 +49,7 @@ end
     :scalene if unique_sides == 3
   end
 
-  def sides
+  def unique_sides
     binding.pry
    @sides.all? {|n| a == n }
   end
