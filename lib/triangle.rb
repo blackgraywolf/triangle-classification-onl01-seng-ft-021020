@@ -12,14 +12,9 @@ end
   end
 
   def kind
-   binding.pry
-   if equilateral? 
-     :equilateral
-     elsif  isosceles? 
-     :isosceles
-     elsif scalene?
-     :scalene
-   end
+   #binding.pry
+   if equilateral? ||  isosceles? || scalene?
+
   end
 
   private
@@ -45,15 +40,15 @@ end
   end
 
   def equilateral?
-    :equilateral if unique_sides == 1
+    :equilateral if unique_sides == true
   end
 
   def isosceles?
-    :isosceles if unique_sides == 2
+    :isosceles if unique_sides == true
   end
 
   def scalene?
-    :scalene if unique_sides == 3
+    :scalene if unique_sides == true
   end
 
   def unique_sides
