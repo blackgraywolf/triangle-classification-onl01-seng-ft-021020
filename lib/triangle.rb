@@ -49,7 +49,7 @@ end
     :scalene if unique_sides == 3
   end
 
-  def unique_sides
-    @sides.uniq.size
+  def sides
+    @sides.size
   end
 end
