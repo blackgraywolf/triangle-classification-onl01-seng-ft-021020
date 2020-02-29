@@ -58,7 +58,10 @@ end
   result = 0
   #@sides = [2,3,3]
   
-   if @sides[] == @sides[] && 
+   if @sides[0] == @sides[1] && @sides[0] == @sides[2]
+     result = 3
+   elsif 
+   
    
   #  binding.pry
   end
