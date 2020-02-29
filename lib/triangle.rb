@@ -50,6 +50,6 @@ end
   end
 
   def sides
-    @sides.size
+   
   end
 end
