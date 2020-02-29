@@ -54,13 +54,15 @@ end
   end
 
   def unique_sides
-   binding.pry
+  
   num = 0
   @sides = [2,3,3]
-   @sides.all? {|n| if @sides[0] == n 
+   @sides.each {|n| if @sides[0] == n 
      num += 1
    end
    }
+   
    num
+  #  binding.pry
   end
 end
