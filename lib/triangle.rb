@@ -1,5 +1,7 @@
 require 'pry'
-class TriangleError < StandardError; end
+class TriangleError < StandardError
+  
+end
 
 # class to determine Triangle type
 class Triangle
