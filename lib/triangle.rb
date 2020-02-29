@@ -45,12 +45,12 @@ end
 
   def isosceles?
    #  binding.pry
-    :isosceles if unique_sides == 1
+    :isosceles if unique_sides == 2
   end
 
   def scalene?
     
-    :scalene if unique_sides == 2
+    :scalene if unique_sides == 1
   end
 
   def unique_sides
