@@ -50,7 +50,7 @@ end
   end
 
   def unique_sides
-    binding.pry
+  #  binding.pry
    @sides.all? {|n| @sides[0] == n }
   end
 end
