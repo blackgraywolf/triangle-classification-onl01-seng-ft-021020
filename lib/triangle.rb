@@ -23,7 +23,7 @@ class Triangle
   end
 
   def negative_sides?
-    fail TriangleError, 'negative side(s)' if @sides.find { |n| n < 0 }
+    fail TriangleError, 'negative side(s)' if @sides.uniq.size { |n| n < 0 }
   end
 
   def triangle_inequality?
