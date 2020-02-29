@@ -49,6 +49,7 @@ end
   end
 
   def scalene?
+    binding.pry
     :scalene if unique_sides == 0
   end
 
