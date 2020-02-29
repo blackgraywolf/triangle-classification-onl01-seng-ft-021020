@@ -20,8 +20,8 @@ class Triangle
 
   def no_sides?
     # binding.pry
-   # sorted = @sides.sort
-    fail TriangleError, 'sides have no length' if sorted[0] == 0 || sorted[1] == 0 || sorted[2] == 0
+    sorted = @sides.sort
+    fail TriangleError, 'sides have no length' if sorted[0] == 0 && sorted[1] == 0 && sorted[2] == 0
     #@sides.size { |n| n = 0 }
   end
 
