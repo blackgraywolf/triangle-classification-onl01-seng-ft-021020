@@ -40,19 +40,24 @@ end
   end
 
   def equilateral?
-    :equilateral if unique_sides == true
+    :equilateral if unique_sides == 3
   end
 
   def isosceles?
-    :isosceles if unique_sides == true
+    :isosceles if unique_sides == 2
   end
 
   def scalene?
-    :scalene if unique_sides == true
+    :scalene if unique_sides == 0
   end
 
   def unique_sides
   #  binding.pry
-   @sides.all? {|n| @sides[0] == n }
+  num = 0
+   @sides.all? {|n| if @sides[0] == n 
+     num += 1
+   end
+   }
+   num
   end
 end
